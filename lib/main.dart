@@ -55,7 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
       });
     } catch (e) {
       setState(() {
-        _mensaje = "❌ Error conectando a Firebase: $e";
+        _mensaje = "❌  Error conectando a Firebase: $e";
       });
     }
   }
